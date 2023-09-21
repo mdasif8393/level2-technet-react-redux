@@ -17,14 +17,13 @@ export default function Products() {
   const { toast } = useToast();
 
   //! Dummy Data
-
   const status = true;
   const priceRange = 100;
 
   //! **
 
   const handleSlider = (value: number[]) => {
-    console.log(value);
+    console.log(value[0]);
   };
 
   let productsData;
